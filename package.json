@@ -1,8 +1,8 @@
 {
     "name": "serde-storage",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "",
-    "main": "index.js",
+    "main": "dist/index.js",
     "scripts": {
         "build": "tsc",
         "test": "npm run build && ava"
