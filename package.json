@@ -1,0 +1,23 @@
+{
+    "name": "serde-storage",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "npm run build && ava"
+    },
+    "author": "Juan de Urtubey",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^20.11.16",
+        "ava": "^6.1.1",
+        "typescript": "^5.3.3"
+    },
+    "ava": {
+        "files": [
+            "test/**/*",
+            "!test/__utils__/**/*"
+        ]
+    }
+}
