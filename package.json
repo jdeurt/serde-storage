@@ -9,6 +9,10 @@
     },
     "author": "Juan de Urtubey",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jdeurt/serde-storage.git"
+    },
     "devDependencies": {
         "@types/node": "^20.11.16",
         "ava": "^6.1.1",
